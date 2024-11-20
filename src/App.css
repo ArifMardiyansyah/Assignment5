@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #608BC1;
+  color: white;
+  text-align: center;
+}
+
+.header {
+  background-color: #133E87;
+  padding: 1rem;
+}
+
+.currency-table {
+  margin: 2rem auto;
+  width: 80%;
+  border-collapse: collapse;
+}
+
+.currency-table th,
+.currency-table td {
+  border: 1px solid #fff;
+  padding: 0.5rem;
+}
+
+.currency-table th {
+  background-color: #133E87;
+}
+
+.currency-table tr:nth-child(even) {
+  background-color: #7AB2D3;
+}
+
+.currency-table tr:nth-child(odd) {
+  background-color: #B9E5E8;
+}
+
+.currency-table td {
+  color: black;
+}
